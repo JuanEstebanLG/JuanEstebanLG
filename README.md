@@ -15,7 +15,7 @@
 - 🗄️ **Bases de datos:** ![MySQL](https://img.shields.io/badge/MySQL-%2300f.svg?style=flat&logo=mysql&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23336791.svg?style=flat&logo=postgresql&logoColor=white)  
 - 🖤 **Versionado:** ![Git](https://img.shields.io/badge/Git-%23F05033.svg?style=flat&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=flat&logo=github&logoColor=white)  
 
-🎨 **Me considero**: curioso, creativo y un poco adicto al café ☕ mientras resuelvo bugs 🐛.  
+🎨 **Me considero**: curioso, creativo y un poco **demasiado** apasionado por los números.  
 
 ---
 
