@@ -29,9 +29,13 @@
 
 ### 🧠 Random Facts:
 🌟 Me fascina **resolver problemas con algoritmos y grafos**.  
+
 💡 Estoy creando proyectos que mezclan **backend sólido** con **frontends atractivos**. 
+
 🤖 Actualmente invstigo sobre **LLM**, **AI Generativa** y **Ciencias de Datos**.
-🎮 Gamer ocasional (sí, también me verás en *Elden Ring* 🗡️).  
+
+🎮 Gamer ocasional (sí, también me verás en *Elden Ring* 🗡️).
+
 ✍️ Escribo código con un toque de humor, porque los bugs ya son demasiado serios.  
 
 ---
