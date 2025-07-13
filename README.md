@@ -21,9 +21,15 @@
 
 ### 📊 Mis estadísticas de GitHub
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=JuanEstebanLG&show_icons=true&theme=react&count_private=true&hide_border=true&border_radius=15" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=JuanEstebanLG&theme=react&hide_border=true&border_radius=15" alt="GitHub Streak" />
+  <img src="https://github-readme-stats.vercel.app/api?username=JuanEstebanLG&show_icons=true&theme=gradient&count_private=true&hide_border=true&border_radius=15" alt="GitHub Stats" />
 </p>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=JuanEstebanLG&theme=tokyonight&hide_border=true&border_radius=15" alt="GitHub Streak" />
+</p>
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=JuanEstebanLG&theme=react-dark&hide_border=true&area=true" alt="GitHub Activity Graph" />
+</p>
+
 
 ---
 
