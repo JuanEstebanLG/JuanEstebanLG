@@ -1,3 +1,7 @@
+
+
+
+
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,100:5B247A&height=200&section=header&text=Juan%20Esteban%20López%20García&fontSize=32&fontColor=ffffff&animation=fadeIn" />
 </p>
@@ -7,7 +11,7 @@
 </h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=7C3AED&size=22&center=true&vCenter=true&width=700&lines=Java+Backend+Developer;Arquitectura+y+Diseño+de+APIs;Python+para+Análisis+de+Datos;Código+Claro+y+Eficiente" />
+  <img src="https://readme-typing-svg.herokuapp.com?color=7C3AED&size=22&center=true&vCenter=true&width=700&lines=Java+Backend+Developer;Python+Data+Analysis"/>
 </p>
 
 ---
