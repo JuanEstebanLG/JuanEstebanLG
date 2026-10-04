@@ -1,154 +1,152 @@
+<!-- ═══════════════════════════  HEADER  ═══════════════════════════ -->
 
+<p align="center"> <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1E1B4B,45:7C3AED,100:06B6D4&height=260&section=header&text=Juan%20Esteban%20L%C3%B3pez%20Garc%C3%ADa&fontSize=44&fontColor=ffffff&fontAlignY=36&desc=Backend%20Developer%20%C2%B7%20Java%20%C2%B7%20Spring%20Boot%20%C2%B7%20Python&descSize=18&descAlignY=56&animation=fadeIn" alt="Juan Esteban López García" /> </p> <p align="center"> <a href="https://github.com/JuanEstebanLG"> <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=A78BFA&center=true&vCenter=true&width=650&lines=Backend+Developer+%C2%B7+Java+%26+Spring+Boot;APIs+REST+eficientes%2C+robustas+y+escalables;SOLID+%C2%B7+Patrones+de+dise%C3%B1o+%C2%B7+Clean+Code;Python+para+an%C3%A1lisis+de+datos+y+automatizaci%C3%B3n" alt="Typing SVG" /> </a> </p> <p align="center"> <a href="https://www.linkedin.com/in/jlesteban3/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a> <a href="mailto:jl3steban@gmail.com"><img src="https://img.shields.io/badge/Email-7C3AED?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a> <img src="https://komarev.com/ghpvc/?username=JuanEstebanLG&style=for-the-badge&color=06B6D4&label=VISITAS" alt="Visitas" /> </p> <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,100:06B6D4&height=3&section=header" />
 
+<!-- ═══════════════════════════  SOBRE MÍ  ═══════════════════════════ -->
 
+## ⚡ Sobre mí
 
+```java
+@RestController
+@RequestMapping("/api/v1/me")
+public class JuanEsteban {
+
+    @GetMapping
+    public Profile about() {
+        return Profile.builder()
+                .role("Software Backend Developer")
+                .background(List.of("Ingeniería de Software", "Ciencias de la Computación"))
+                .coreStack(List.of("Java", "Spring Boot", "MySQL", "PostgreSQL", "Docker"))
+                .alsoInto(List.of("Python", "Análisis de datos", "Automatización"))
+                .principles(List.of("SOLID", "Design Patterns", "Clean Code"))
+                .mission("Conectar al mundo")
+                .ToDo(List.of("AI Engineering", "DevOps", "Cloud"))
+                .build();
+    }
+}
+```
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🔌 APIs REST</h3>
+      Diseño y desarrollo de servicios backend con <b>Java</b> y <b>Spring Boot</b>, asegurados con <b>Spring Security</b> y <b>JWT</b>.
+    </td>
+    <td width="50%" valign="top">
+      <h3>🧱 Ingeniería de calidad</h3>
+      <b>Principios SOLID</b>, <b>patrones de diseño</b> y buenas prácticas para un código <b>limpio, mantenible y escalable</b>.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>📊 Datos con Python</h3>
+      Análisis de datos, generación de reportes y <b>automatización de procesos</b>, con visualización en <b>Streamlit</b>.
+    </td>
+    <td width="50%" valign="top">
+      <h3>☁️ Cloud ligera</h3>
+      Despliegues en <b>Vercel</b>, <b>GitHub Pages</b> y <b>Azure</b>; bases de datos relacionales <b>MySQL</b> y <b>PostgreSQL</b>.
+    </td>
+  </tr>
+</table>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,100:06B6D4&height=3&section=header" />
+
+<!-- ═══════════════════════════  STACK  ═══════════════════════════ -->
+
+## 🛠️ Stack tecnológico
+
+<table align="center">
+  <tr>
+    <td align="center" width="170"><b>Lenguajes</b></td>
+    <td>
+      <img height="40" src="https://skillicons.dev/icons?i=java,py,js,html,css,md&theme=dark" />
+      <img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logoColor=white" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Backend & Seguridad</b></td>
+    <td>
+      <img height="40" src="https://skillicons.dev/icons?i=spring&theme=dark" />
+      <img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white" />
+      <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" />
+      <img src="https://img.shields.io/badge/Log4j-D22128?style=for-the-badge&logo=apache&logoColor=white" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Bases de datos & Datos</b></td>
+    <td>
+      <img height="40" src="https://skillicons.dev/icons?i=mysql,postgres&theme=dark" />
+      <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Frontend</b></td>
+    <td>
+      <img height="40" src="https://skillicons.dev/icons?i=react&theme=dark" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Cloud & DevOps</b></td>
+    <td>
+      <img height="40" src="https://skillicons.dev/icons?i=docker,azure,vercel&theme=dark" />
+      <img src="https://img.shields.io/badge/GitHub_Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Build & Herramientas</b></td>
+    <td>
+      <img height="40" src="https://skillicons.dev/icons?i=maven,gradle,idea,vscode,postman&theme=dark" />
+      <img src="https://img.shields.io/badge/Insomnia-4000BF?style=for-the-badge&logo=insomnia&logoColor=white" />
+      <img src="https://img.shields.io/badge/VirtualBox-183A61?style=for-the-badge&logo=virtualbox&logoColor=white" />
+      <img src="https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Control de versiones</b></td>
+    <td>
+      <img height="40" src="https://skillicons.dev/icons?i=git,github&theme=dark" />
+    </td>
+  </tr>
+</table>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,100:06B6D4&height=3&section=header" />
+
+<!-- ═══════════════════════════  ACTIVIDAD  ═══════════════════════════ -->
+
+## 📈 Actividad en GitHub
+
+<!-- Generado por .github/workflows/metrics.yml (lowlighter/metrics) -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,100:5B247A&height=200&section=header&text=Juan%20Esteban%20López%20García&fontSize=32&fontColor=ffffff&animation=fadeIn" />
+  <img width="100%" src="./github-metrics.svg" alt="Métricas de GitHub: actividad, calendario de contribuciones, rachas y lenguajes" />
 </p>
 
-<h3 align="center" style="color:#E0E7FF; text-shadow:0 0 6px #7C3AED;">
-  ⚙️ Desarrollador Backend | Ingeniería de Software | Ciencias de la Computación
-</h3>
-
+<!-- Generado por .github/workflows/snake.yml (Platane/snk) -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=7C3AED&size=22&center=true&vCenter=true&width=700&lines=Java+Backend+Developer;Python+Data+Analysis"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/JuanEstebanLG/JuanEstebanLG/output/snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/JuanEstebanLG/JuanEstebanLG/output/snake-light.svg" />
+    <img width="100%" src="https://raw.githubusercontent.com/JuanEstebanLG/JuanEstebanLG/output/snake-dark.svg" alt="Serpiente recorriendo el gráfico de contribuciones" />
+  </picture>
 </p>
 
----
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,100:06B6D4&height=3&section=header" />
 
-<h2 align="center" style="color:#A855F7; text-shadow:0 0 8px #A855F7;">
-  🚀 Tecnologías Principales
-</h2>
+<!-- ═══════════════════════════  CONTACTO  ═══════════════════════════ -->
 
-#### ☕ Lenguajes
+## 🤝 ¿Hablamos?
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=000000" />
-  <img src="https://img.shields.io/badge/Python-14354C?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=databricks&logoColor=white" />
-  <img src="https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white" />
-</p>
-
-#### 💾 Backend
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Java_Backend-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
-  <img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white" />
-  <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" />
-  <img src="https://img.shields.io/badge/Log4j-A6120D?style=flat-square&logo=apache&logoColor=white" />
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-</p>
-
-#### 🧪 Frameworks y librerías
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
-  <img src="https://img.shields.io/badge/React_Library-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" />
-</p>
-
-#### 🛠️ Tecnologías
-
-<p align="center">
-  <img src="https://img.shields.io/badge/VirtualBox-183A61?style=flat-square&logo=virtualbox&logoColor=white" />
-  <img src="https://img.shields.io/badge/Insomnia-4000BF?style=flat-square&logo=insomnia&logoColor=white" />
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white" />
-  <img src="https://img.shields.io/badge/Apache_Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white" />
-  <img src="https://img.shields.io/badge/Gradle-02303A?style=flat-square&logo=gradle&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/IntelliJ_IDEA-000000?style=flat-square&logo=intellijidea&logoColor=white" />
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" />
-  <img src="https://img.shields.io/badge/Trello-0052CC?style=flat-square&logo=trello&logoColor=white" />
-</p>
-
-#### ☁️ Nube y proveedores
-
-<p align="center">
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub_Pages-181717?style=flat-square&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/Microsoft_Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" />
-</p>
-
-#### 🧰 Control de versiones
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Git-F05033?style=flat-square&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" />
-</p>
-
----
-
-<h2 align="center" style="color:#A855F7; text-shadow:0 0 8px #22C55E;">
-  🧩 Perfil Profesional
-</h2>
-
-💼 Especialista en **desarrollo backend con Java y Spring Boot**, enfocado en APIs REST eficientes y robustas.  
-🧠 Aplicación de **principios SOLID**, **patrones de diseño** y **buenas prácticas de ingeniería**.  
-📊 Uso de **Python** para análisis de datos, generación de reportes y automatización de procesos.  
-⚙️ Experiencia en **infraestructura ligera en la nube** (Vercel, GitHub Pages, Azure) y bases de datos relacionales (MySQL, PostgreSQL).  
-🎯 Enfoque en **código limpio, mantenible y escalable**, con atención a la eficiencia y calidad del software.  
-
----
-
-<h2 align="center" style="color:#A855F7; text-shadow:0 0 8px #22C55E;">
-  📊 Estadísticas
-</h2>
-
-<div align="center">
-
-  <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px; margin-bottom:15px;">
-    <img 
-      src="https://github-readme-stats-three-eosin.vercel.app/api?username=JuanEstebanLG&show_icons=true&theme=synthwave&hide_border=true&border_radius=12"
-      alt="GitHub Stats"
-      height="160"
-    />
-    <img 
-      src="https://github-readme-stats-three-eosin.vercel.app/api/top-langs/?username=JuanEstebanLG&layout=compact&theme=synthwave&hide_border=true&border_radius=12"
-      alt="Top Langs"
-      height="160"
-    />
-  </div>
-
-  <img 
-    src="https://github-readme-activity-graph.vercel.app/graph?username=JuanEstebanLG&bg_color=0d1117&color=9f7aea&line=22c55e&point=ffffff&area_color=22c55e&area=true&hide_border=true"
-    alt="GitHub Activity Graph"
-  />
-
-</div>
-
----
-
-<h2 align="center" style="color:#A855F7; text-shadow:0 0 8px #22C55E;">
-  🌐 Contacto
-</h2>
-
-<p align="center">
-  <a href="mailto:jl3steban@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
-  <a href="https://www.linkedin.com/in/jlesteban3/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="https://github.com/JuanEstebanLG">
-    <img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-</p>
-
----
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=JuanEstebanLG&theme=discord&no-frame=true&margin-w=8" alt="Trophies" />
+  ¿Tienes un proyecto backend, una API por construir o datos por analizar? Escríbeme.
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=JuanEstebanLG&style=flat-square&color=22C55E" alt="Profile Views" />
+  <a href="mailto:jl3steban@gmail.com"><img src="https://img.shields.io/badge/jl3steban@gmail.com-1E1B4B?style=for-the-badge&logo=gmail&logoColor=A78BFA" alt="Email" /></a>
+  <a href="https://www.linkedin.com/in/jlesteban3/"><img src="https://img.shields.io/badge/in/jlesteban3-1E1B4B?style=for-the-badge&logo=linkedin&logoColor=22D3EE" alt="LinkedIn" /></a>
+  <a href="https://github.com/JuanEstebanLG"><img src="https://img.shields.io/badge/@JuanEstebanLG-1E1B4B?style=for-the-badge&logo=github&logoColor=F472B6" alt="GitHub" /></a>
+</p>
+
+<!-- ═══════════════════════════  FOOTER  ═══════════════════════════ -->
+
+<p align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:06B6D4,55:7C3AED,100:1E1B4B&height=130&section=footer" />
 </p>
